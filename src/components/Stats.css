@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+.mainStats{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.mainStats h2{
+    text-decoration: underline;
+}
+
+@media only screen and(max-width:470px){
+    .sub{
+        margin-left: 5px;
+        margin-right: 5xp;
+    }
+}
+
+.eye {
+
+    border: 1px solid transparent;
+    background-color: rgb(137, 69, 232);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.icontext span {
+    font-weight: 600;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.icontext{
+    cursor: pointer;
+    padding-top: 2%;
+}
+
+.user {
+
+    border: 1px solid transparent;
+    background-color: rgb(50, 212, 171);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.useradd {
+
+    border: 1px solid transparent;
+    background-color: rgb(237, 136, 54);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.book {
+
+    border: 1px solid transparent;
+    background-color: rgb(231, 40, 40);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}

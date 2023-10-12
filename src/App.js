@@ -1,12 +1,15 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import './App.css';
+import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </>
   );
 }

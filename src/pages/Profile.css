@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.profile {
+    padding: 80px 0px;
+}
+
+.mainP {
+    width: 30%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 10px 15px rgb(232, 232, 232);
+}
+
+.username {
+    font-family: 'Roboto Slab';
+    cursor: pointer;
+}
+
+.username span {
+    color: green;
+    font-weight: 600;
+}
+
+.username span:hover {
+    color: red;
+    transition: all 0.3s;
+}
+
+.email {
+    font-family: 'Roboto Slab';
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.email span {
+    color: green;
+    font-weight: 600;
+}
+
+.email span:hover {
+    color: red;
+    transition: all 0.3s;
+}
+
+.city {
+    font-family: 'Roboto Slab';
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.city span {
+    color: green;
+    font-weight: 600;
+}
+
+.city span:hover {
+    color: red;
+    transition: all 0.3s;
+}
+
+.tagline {
+    font-family: 'Roboto Slab';
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.tagline span {
+    color: green;
+    font-weight: 600;
+}
+
+.tagline span:hover {
+    color: red;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width:870px) {
+    .mainP {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .mainP {
+        width: 90%;
+    }
+}
